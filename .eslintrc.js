@@ -26,7 +26,6 @@ module.exports = {
   },
   plugins: ['react', '@typescript-eslint'],
   rules: {
-    '@typescript-eslint/no-unused-vars': ['error', { varsIgnorePattern: '_' }],
     '@typescript-eslint/interface-name-prefix': 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
@@ -51,7 +50,8 @@ module.exports = {
       },
     ],
     'prettier/prettier': ['error', { endOfLine: 'auto' }],
-    'no-unused-vars': ['error', { varsIgnorePattern: '_' }],
+    'no-unused-vars': ['error', { argsIgnorePattern: '_' }],
+    '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '_' }],
     'no-bitwise': 'warn',
     'import/extensions': [
       'error',
@@ -65,6 +65,7 @@ module.exports = {
       2,
       { namedComponents: 'arrow-function' },
     ],
+    'object-curly-newline': ['error', { ObjectPattern: { multiline: true } }],
     'react-hooks/rules-of-hooks': 'error',
     'react/prop-types': 'off',
     'react/react-in-jsx-scope': 'off',
@@ -74,5 +75,10 @@ module.exports = {
     'react/jsx-filename-extension': [1, { extensions: ['.tsx'] }],
     'react/jsx-one-expression-per-line': 'off',
     'react-hooks/exhaustive-deps': 'warn',
+    'operator-linebreak': [
+      'error',
+      'after',
+      { overrides: { '?': 'before', ':': 'before' } },
+    ],
   },
 };
