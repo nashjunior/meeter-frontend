@@ -18,14 +18,6 @@
 -  React-LeafLet
 -  Axios
 
-## Technology used :
--  NodeJS --- Fastify.
--  JWT 
--  CI/CD  ---   GITHUB ACTIONS
--  JEST ---  UNITARY AND INTEGRATION TESTING
--  SWAGGER
--  POSTGRES --- FLYWAY
-
 ## Request Images
 
 ### Initial Screen
