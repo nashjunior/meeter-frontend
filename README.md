@@ -43,5 +43,5 @@
 ![Screenshot 2024-01-14 at 14 19 25](https://github.com/nashjunior/meeter-frontend/assets/16328721/e09693c3-ee54-4ba7-b0d5-6169ccf5dcf2)
 
 ### Command to run
--  git checkout feature/meetings
+-  git checkout feature/meeter
 -  yarn dev
