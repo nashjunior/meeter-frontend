@@ -8,6 +8,9 @@
 ### Meeter is a unified application platform designed mark physical reunions between peoples.
 ### It serves as a comprehensive solution, consolidating various features and functionalities.
 
+# Relates To
+- [Backend](https://github.com/nashjunior/meeter-backend/blob/main/README.md)
+
 ## Technology used :
 -  ReactJS
 -  NextJS
@@ -40,4 +43,5 @@
 ![Screenshot 2024-01-14 at 14 19 25](https://github.com/nashjunior/meeter-frontend/assets/16328721/e09693c3-ee54-4ba7-b0d5-6169ccf5dcf2)
 
 ### Command to run
+-  git checkout feature/meetings
 -  yarn dev
