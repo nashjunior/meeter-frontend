@@ -20,9 +20,9 @@
 
 ## Technology used :
 -  NodeJS --- Fastify.
--  JWT --- AMAZON AWS --- ECS --- ECR --- EC2]
+-  JWT 
 -  CI/CD  ---   GITHUB ACTIONS
--  JEST ---  UNITARY AND INTEGRATION TESTING ----  JACOCO
+-  JEST ---  UNITARY AND INTEGRATION TESTING
 -  SWAGGER
 -  POSTGRES --- FLYWAY
 
